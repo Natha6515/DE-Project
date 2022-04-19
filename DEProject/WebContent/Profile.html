@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Form</title>
+
+    <link rel="stylesheet" href="CSS/profile.css">
+
+</head>
+<body>
+    <form action="profile" method="post" enctype="multipart/form-data">
+        <div class="container rounded bg-white mt-5 mb-5">
+        <div class="row">
+            <div class="col-md-3 border-right">
+                <div  class="d-flex flex-column align-items-center text-center p-3 py-5"><img  id="box" class="rounded-circle mt-5"  width="175px" height="200px" accesskey="image/jpg,image/png,image/jpeg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGsAAACGCAMAAADtu4RiAAAAMFBMVEXFxcX////CwsLMzMzJycne3t7w8PD29vbq6ur7+/vX19fPz8/l5eXz8/PT09Ph4eFDICxmAAACRUlEQVRoge2Ya3bEIAiFRzTv1/5329pMJ2MzCgjJjx6+DdwD4hXv42EYhmEYhmEYhmEYhmEYxhPYuUPHj9s8z9vor9WD0LTuoNv8VXIwvgs95ZrHBWqwdielyDCqi4X+o1Kk9apqMH0u6oLSYCwoRTY1MVTKuVlJDFZUyrlGR8wTpJxTOTMojcUbQUFqpkm5RV5YIEopdBHOvpSjk5ZFGwyVwiBvTWcWYV0DQ8t5kRTlGh+I3IM88BpNXFhaovscWMfl3CTQ4kx8RDL1vNGQuT3+cKVIBvG/at15XnfO4Z33i+kbg8Q3mH7Yih4w3nAIV9Ib3y9WE2Ut5KxR8kWKsXCI9yhGYat4GSWfmPS0fsRo91l0j1/QjErewQhMBCml/xfls6clFStD2qj6OfelAel0zupgy0q1QVkKYM30cdTOpGDqc0c29JOmGEzl32WrpgYe/8cqZVJEQ1RIbtCr9WKQNhLyo35GuG5wvubO9QKlQA83dtrqhyUwf7DfLLVixNAroW7poOZrf8UqBoT49J/h522scCilZ4oRIt48zJeT+8lL4e31tYe1w8mKoBFJsVYdWQcj5C4yctcc1IWblP1jEFerSsNIodmH6GodkC6ZSlnEwjROK7ISyqo3whSCLYKSlHOoltgyDlDzqH62zqAPGSfPwEB2D8UWok1UsMIDzBSZ4WSRoSwlf03eKb4sSl74S9ET1Uxjp2wdercrUtw7uLk1QjGj0h2N8nBQkicOhbxeeQyLg6jqUJGCSzGjf5w0HPgCdMkZWO/Lkq4AAAAASUVORK5CYII=">   
+                    <div class="file btn btn-lg  col">
+                        <input id="img_inp" class="inp" type="file" name="file"/>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 border-right">
+                <div class="p-3 py-5">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h4 class="text-right">Profile Settings</h4>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col-md-6"><label class="labels">Name</label><input type="text" name="fn" class="form-control" placeholder="first name" value=""></div>
+                        <div class="col-md-6"><label class="labels">Surname</label><input type="text" name="ln" class="form-control" value="" placeholder="surname"></div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-md-12"><label class="labels">Mobile Number</label><input type="text" name="pn" class="form-control" placeholder="enter phone number" value=""></div>
+                        <div class="col-md-12"><label class="labels">Address Line 1</label><input type="text" name="ad1" class="form-control" placeholder="enter address line 1" value=""></div>
+                        <div class="col-md-12"><label class="labels">Collage</label><input type="text" name="unv" class="form-control" placeholder="enter collage name" value=""></div>
+                        <div class="col-md-12"><label class="labels">Date Of Birth</label><input type="date" name="dob" class="form-control" placeholder="enter date of birth" value=""></div>
+                        <div class="col-md-12"><label class="labels">Gender</label><input type="text" name="gender" class="form-control" placeholder="enter your gender" value=""></div>
+                        <div class="col-md-12"><label class="labels">Email ID</label><input type="text" name="email" class="form-control" placeholder="enter email id" value=""></div>
+                        
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-md-6"><label class="labels">City</label><input type="text" name="ct" class="form-control" placeholder="city" value=""></div>
+                        <div class="col-md-6"><label class="labels">Postal Code</label><input type="text" name="psc" class="form-control" value="" placeholder="postal code of address"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-3 py-5">
+                    <div class="d-flex justify-content-between align-items-center experience"><h4> Social Media </h4><span hidden class="border px-3 p-1 add-experience">&nbsp;Experience</span></div><br>
+                    <div class="col-md-12"><label class="labels">Facebook</label><input type="text" class="form-control" name="fc" placeholder="facebook id" value=""></div> <br>
+                    <div class="col-md-12"><label class="labels">Instagram</label><input type="text" class="form-control" name="in" placeholder="instagram id" value=""></div>
+                    <div class="col-md-12 pt-2"><label class="labels">Twitter</label><input type="text" class="form-control" name="twt" placeholder="twitter id" value=""></div> <br>
+                    <div class="col-md-12"><label class="labels">Linkd In</label><input type="text" class="form-control" name="li" placeholder="linked in profile" value=""></div>
+                     
+                     <input type="hidden" value="insert" name="id">
+                
+                </div>
+                <div class="mt-5 text-center"><button class="btn btn-primary profile-button" type="submit">Save Profile</button></div>
+            </div>
+            
+        </div>
+    </div>
+    </div>
+    
+    </div>
+
+    </form>
+
+    <script src="JS/jquery.min.js"></script>
+    <script src="JS/profile.js"></script>
+</body>
+</html>

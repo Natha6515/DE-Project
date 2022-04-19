@@ -1,0 +1,87 @@
+body {
+    background: coral;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: coral;
+}
+
+.profile-button {
+    background: coral;
+    box-shadow: none;
+    border: none
+}
+
+.profile-button:hover {
+    background: white;
+    color:coral;
+    border: 2px solid coral;
+    border-color: coral;
+}
+
+.profile-button:focus {
+    background: coral;
+    box-shadow: none
+}
+
+.profile-button:active {
+    background: coral;
+    box-shadow: none
+}
+
+.back:hover {
+    color: coral;
+    border-radius: 4px;
+    cursor: pointer
+}
+
+.labels {
+    font-size: 16px
+}
+
+.add-experience:hover {
+    background: coral;
+    color: white;
+    cursor: pointer;
+    border: solid 1px pink;
+}
+  .photo {
+    position: absolute;
+    font-size: 50px;
+    opacity: 0;
+    background-color: coral;
+   }
+
+   div .col {
+    position: relative;
+    overflow: hidden;
+    background-color: coral;
+    color: white;
+    height: 80px;
+    width: 300px;;
+  }
+  input .inp {
+    position: absolute;
+    font-size: 20px;
+    opacity: 0;
+    right: 0;
+    top: 0;
+    font-size: 10px;
+  }
+/* 
+   .col{
+
+    background-color: coral;
+    color: white;
+
+   }
+
+   .col:hover{
+
+    background-color: white;
+    border: 2px solid coral;
+
+    color: coral;
+
+   } */

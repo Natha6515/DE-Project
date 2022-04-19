@@ -1,0 +1,248 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    box-sizing: border-box;
+    font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    border-radius: 8px;
+    
+    
+}
+
+input{
+	
+	font-size:20px;
+	padding-left: 8px;
+	border-radius: 50px;
+	
+}
+
+body{
+
+    /* display: flex; */
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(135deg, coral ,pink);
+
+}
+
+.userform{
+
+    background: rgb(226, 219, 221);
+    width: 60%;
+    max-height: 1000px;
+    padding: 20px;
+    padding-top: 30px;
+    border-radius: 20px;
+    margin-left: 270px;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+form .maindiv {
+
+    width: 90%;
+    height: 150%;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+div.title{
+
+    margin-bottom: 10px;
+    font-weight: 500;
+    position: relative;
+
+}
+
+div.title::before{
+
+    
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background: linear-gradient(135deg, coral ,pink);
+    
+
+}
+
+div  .div1 {
+
+    padding: 5px 20px 0px 10px;
+    float: left;
+    margin-left: 40px;
+    width: 45%;
+    
+
+}
+
+.div1 input{
+
+    height: 40px;
+    width: 100%;
+    margin-top: 5%;
+    margin-right: 20px;
+    border-radius: 8px;
+	
+
+
+}
+
+div.div2 {
+
+    padding: 5px 20px 0px 10px;
+    width: 45%;
+
+    
+}
+
+.div2 input{
+
+    height: 40px;
+    width: 100%;
+    margin-top: 5%;
+    margin-right: 20px;
+    border-radius: 8px;
+	
+    
+}
+
+.gender_title{
+
+    font-size: larger;
+    font-weight: 500;
+    margin-left: 5%;
+
+}
+
+.gender_details{
+
+    /* background-color: red; */
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    font-size: 18px;
+
+}
+
+.gender_details input{
+
+    margin-right: 15px;
+
+}
+
+.buttontag{
+
+    height: 80%;
+    width: 80%;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.buttontag input{
+
+    height: 100%;
+    width: 100%;
+    padding: 8px;
+    font-size: large;
+    color: black;
+    font-weight: 500;
+    border-radius: 8px;
+    background:linear-gradient(135deg, coral ,lightblue) ; 
+
+}
+
+
+.but:hover{
+
+    
+    color: white ;
+    text-shadow: 2px 2px 4px black;
+    font-weight: 700;
+    background:linear-gradient(-135deg, coral ,lightblue) ; 
+
+}
+
+
+/* LOG IN PAGE */
+
+#cplog{
+	
+	font-size: 20px;
+	
+	
+}
+
+
+form .maindivlog {
+
+    width: 90%;
+    height: 150%;
+    display: flex;
+    flex-flow:row wrap;
+    align-content:center;
+    justify-content: center;
+}
+
+form .maindivlog div {
+
+padding: 5px 20px 20px 10px;
+    clear:left;
+    margin-left: 40px;
+    width: 45%;
+	
+
+
+}
+
+form .maindivlog div input {
+
+
+    height: 40px;
+    width: 100%;
+    margin-top: 5%;
+    margin-right: 20px;
+    
+   font-size: 20px;
+   border-radius: 8px;
+}
+
+
+
+.buttonlog {
+
+    height: 80%;
+    width: 40%;    
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 00px;
+}
+
+.buttonlog input{
+
+    height: 100%;
+    width: 40%;
+    padding: 8px;
+    font-size: large;
+    color: black;
+    font-weight: 500;
+    border-radius: 8px;
+    background:linear-gradient(135deg, coral ,lightblue) ; 
+
+}
+
